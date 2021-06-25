@@ -5,7 +5,7 @@ import {TextDataObject} from "./TextDataObject";
 const cheerio = require('cheerio');
 
 // Guardian api key
-const apiKey:string = "5c8c4e23-f66e-4a28-b9e3-016dd3d24216";
+const apiKey:string = "use your own api key";
 // data access object
 const saveData:SaveData = new SaveData();
 // windows active directory start date
