@@ -4,7 +4,7 @@ var axios = require('axios');
 
 async function formatData() {
     // my MDX student ID
-    let studentId = "M00704831";
+    let studentId = "000000";
     // get synthetic data using my id
     let synthD = await axios.get("https://39kicq1lg9.execute-api.us-east-1.amazonaws.com/prod/"+studentId+"/");
     // wait for data
